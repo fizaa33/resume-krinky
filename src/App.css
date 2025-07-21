@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(255 247 237);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@theme{
+  --shadow-box :  5px 5px #0f172a;
+  --shadow-box-hover : 5px 5px #EA580C;
+  --color-secondary-orange : #EA580C;
+  
+
+}
+
+input:focus, textarea:focus{
+  outline:  none;
+  border: 1px solid #facc15;
+  box-shadow: 0px 2px 5px 0px #facc15;
+  
+}
